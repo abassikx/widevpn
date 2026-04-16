@@ -3,4 +3,4 @@
 #profile-update-interval: 1
 #support-url: https://t.me/neon_coded
 #profile-web-page-url: https://t.me/neon_coded
-vless://d76dc366-09cf-4a8b-ae50-3be731ab1f03@api.maps-yandex.net:22231?type=grpc&security=reality&sni=deepl.com&pbk=9rRlBHQARx0diBZvXRNC1Tho8kgdj4iF6wBPJQXLjTc&fp=qq&serviceName=api&sid=cf2ef841ab42dc7d#@widevpnbot-ultra-123ms
+vless://d76dc366-09cf-4a8b-ae50-3be731ab1f03@api.maps-yandex.net:22231?type=grpc&security=reality&sni=deepl.com&pbk=9rRlBHQARx0diBZvXRNC1Tho8kgdj4iF6wBPJQXLjTc&fp=qq&serviceName=api&sid=cf2ef841ab42dc7d#@widevpnbot-ultra-172ms
