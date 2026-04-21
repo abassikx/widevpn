@@ -5,23 +5,31 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - name: "1 widevpnbot NL"
+  - name: "1 widevpnbot XX"
     type: vless
-    server: 185.130.225.215
-    port: 48004
-    uuid: 6f623839-1e6f-36ea-aa5b-5a8d9aa16fcd
+    server: 217.13.104.133
+    port: 5443
+    uuid: 740d3cdc-fdeb-400c-8a06-18823ce0f85a
     tls: true
-    sni: stats.vk-portal.net
+    sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
   - name: "2 widevpnbot XX"
     type: vless
-    server: nl.x8lab.org
-    port: 443
-    uuid: e08d2d8b-173f-001f-8867-fb20f3cd26bd
+    server: de-dp-01.com
+    port: 8443
+    uuid: 05a2aa36-159d-4455-be3f-f2e5b34e6303
     tls: true
-    sni: www.kinopoisk.ru
+    sni: rbc.ru
     flow: xtls-rprx-vision
   - name: "3 widevpnbot XX"
+    type: vless
+    server: nider-t.sbrf-cdn342.ru
+    port: 443
+    uuid: c7f067ad-044c-407e-b1d2-711902903ac0
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "4 widevpnbot XX"
     type: vless
     server: 45.86.70.95
     port: 8443
@@ -29,29 +37,21 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "4 widevpnbot NL"
+  - name: "5 widevpnbot NL"
     type: vless
-    server: 150.251.138.132
-    port: 54443
-    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
-    tls: true
-    sni: ya.ru
-    flow: xtls-rprx-vision
-  - name: "5 widevpnbot XX"
-    type: vless
-    server: 45.15.125.12
-    port: 8443
-    uuid: b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c
+    server: 62.133.61.142
+    port: 443
+    uuid: 4cc545b9-1343-48fd-b5e2-aaf37216f48d
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
   - name: "6 widevpnbot NL"
     type: vless
-    server: 89.23.103.249
-    port: 443
-    uuid: 243d1ed8-7d42-4790-b1a4-6eb8bf552fb0
+    server: 185.130.225.215
+    port: 48004
+    uuid: 6f623839-1e6f-36ea-aa5b-5a8d9aa16fcd
     tls: true
-    sni: st.okcdn.ru
+    sni: stats.vk-portal.net
     flow: xtls-rprx-vision
   - name: "7 widevpnbot NL"
     type: vless
@@ -63,13 +63,29 @@ proxies:
     flow: xtls-rprx-vision
   - name: "8 widevpnbot XX"
     type: vless
+    server: 45.15.125.8
+    port: 8443
+    uuid: b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "9 widevpnbot XX"
+    type: vless
     server: 91.84.110.45
-    port: 443
+    port: 8443
     uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
     tls: true
     sni: sun6-22.userapi.com
     flow: xtls-rprx-vision
-  - name: "9 widevpnbot XX"
+  - name: "10 widevpnbot NL"
+    type: vless
+    server: 89.23.103.249
+    port: 443
+    uuid: 243d1ed8-7d42-4790-b1a4-6eb8bf552fb0
+    tls: true
+    sni: st.okcdn.ru
+    flow: xtls-rprx-vision
+  - name: "11 widevpnbot XX"
     type: vless
     server: 93.185.166.71
     port: 443
@@ -77,71 +93,15 @@ proxies:
     tls: true
     sni: eh.vk.com
     flow: xtls-rprx-vision
-  - name: "10 widevpnbot XX"
-    type: vless
-    server: 91.84.110.45
-    port: 8443
-    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
-    tls: true
-    sni: sun6-22.userapi.com
-    flow: xtls-rprx-vision
-  - name: "11 widevpnbot NL"
-    type: vless
-    server: 89.124.85.71
-    port: 443
-    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
   - name: "12 widevpnbot XX"
     type: vless
-    server: 195.2.92.183
-    port: 443
-    uuid: 7c6c3d89-e709-551d-89a2-5889f374e2b1
-    tls: true
-    sni: vk.com
-    flow: xtls-rprx-vision
-  - name: "13 widevpnbot XX"
-    type: vless
-    server: 45.15.125.8
+    server: 45.15.125.12
     port: 8443
     uuid: b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "14 widevpnbot XX"
-    type: vless
-    server: nl.pfvpn.cfd
-    port: 443
-    uuid: 4cc545b9-1343-48fd-b5e2-aaf37216f48d
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "15 widevpnbot XX"
-    type: vless
-    server: 185.121.234.35
-    port: 443
-    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
-    tls: true
-    sni: sun6-22.userapi.com
-    flow: xtls-rprx-vision
-  - name: "16 widevpnbot NL"
-    type: vless
-    server: 91.84.126.246
-    port: 443
-    uuid: 0e2b4a50-8ebe-45b4-b2cc-d0ae7f972e4f
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "17 widevpnbot XX"
-    type: vless
-    server: 5.35.34.245
-    port: 8443
-    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
-    tls: true
-    sni: sun6-22.userapi.com
-    flow: xtls-rprx-vision
-  - name: "18 widevpnbot XX"
+  - name: "13 widevpnbot XX"
     type: vless
     server: nl.silavpn.online
     port: 443
@@ -149,39 +109,7 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "19 widevpnbot XX"
-    type: vless
-    server: 217.13.104.213
-    port: 443
-    uuid: 55590f73-1123-4439-9b72-c3e359fe0337
-    tls: true
-    sni: sun6-22.userapi.com
-    flow: xtls-rprx-vision
-  - name: "20 widevpnbot US"
-    type: vless
-    server: 2.26.82.158
-    port: 443
-    uuid: 243d1ed8-7d42-4790-b1a4-6eb8bf552fb0
-    tls: true
-    sni: st.okcdn.ru
-    flow: xtls-rprx-vision
-  - name: "21 widevpnbot NL"
-    type: vless
-    server: 46.149.78.103
-    port: 443
-    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "22 widevpnbot XX"
-    type: vless
-    server: 185.121.234.35
-    port: 8443
-    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
-    tls: true
-    sni: sun6-22.userapi.com
-    flow: xtls-rprx-vision
-  - name: "23 widevpnbot XX"
+  - name: "14 widevpnbot XX"
     type: vless
     server: dee1.shubnechkin.online
     port: 443
@@ -189,31 +117,39 @@ proxies:
     tls: true
     sni: vk.com
     flow: xtls-rprx-vision
-  - name: "24 widevpnbot FR"
+  - name: "15 widevpnbot NL"
     type: vless
-    server: 86.104.74.251
-    port: 47030
-    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "25 widevpnbot XX"
-    type: vless
-    server: 87.251.69.48
+    server: 91.84.126.246
     port: 443
-    uuid: 1b7df973-95d0-4d25-841a-954cd5375695
+    uuid: 0e2b4a50-8ebe-45b4-b2cc-d0ae7f972e4f
     tls: true
-    sni: sun6-22.userapi.com
+    sni: max.ru
     flow: xtls-rprx-vision
-  - name: "26 widevpnbot XX"
+  - name: "16 widevpnbot NL"
     type: vless
-    server: 185.21.13.109
+    server: 89.124.85.71
+    port: 443
+    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "17 widevpnbot XX"
+    type: vless
+    server: 217.13.105.4
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: m.vkvideo.cs7777.vk.ru
+    flow: xtls-rprx-vision
+  - name: "18 widevpnbot XX"
+    type: vless
+    server: 185.121.234.35
     port: 443
     uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
     tls: true
     sni: sun6-22.userapi.com
     flow: xtls-rprx-vision
-  - name: "27 widevpnbot NL"
+  - name: "19 widevpnbot NL"
     type: vless
     server: 46.149.73.206
     port: 443
@@ -221,7 +157,7 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "28 widevpnbot XX"
+  - name: "20 widevpnbot XX"
     type: vless
     server: 185.21.13.109
     port: 8443
@@ -229,23 +165,7 @@ proxies:
     tls: true
     sni: sun6-22.userapi.com
     flow: xtls-rprx-vision
-  - name: "29 widevpnbot XX"
-    type: vless
-    server: 95.85.248.115
-    port: 443
-    uuid: 6d524f6e-deea-4f8a-a71d-f32a952e23e5
-    tls: true
-    sni: vk.com
-    flow: xtls-rprx-vision
-  - name: "30 widevpnbot XX"
-    type: vless
-    server: 217.13.105.4
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: m.vkvideo.cs7777.vk.ru
-    flow: xtls-rprx-vision
-  - name: "31 widevpnbot XX"
+  - name: "21 widevpnbot XX"
     type: vless
     server: midorinote.online
     port: 8443
@@ -253,7 +173,63 @@ proxies:
     tls: true
     sni: sun6-22.userapi.com
     flow: xtls-rprx-vision
-  - name: "32 widevpnbot XX"
+  - name: "22 widevpnbot FR"
+    type: vless
+    server: 86.104.74.251
+    port: 47030
+    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "23 widevpnbot US"
+    type: vless
+    server: 2.26.82.158
+    port: 443
+    uuid: 243d1ed8-7d42-4790-b1a4-6eb8bf552fb0
+    tls: true
+    sni: st.okcdn.ru
+    flow: xtls-rprx-vision
+  - name: "24 widevpnbot XX"
+    type: vless
+    server: de.silavpn.online
+    port: 443
+    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "25 widevpnbot XX"
+    type: vless
+    server: 185.121.234.35
+    port: 8443
+    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "26 widevpnbot XX"
+    type: vless
+    server: 95.85.248.115
+    port: 443
+    uuid: 6d524f6e-deea-4f8a-a71d-f32a952e23e5
+    tls: true
+    sni: vk.com
+    flow: xtls-rprx-vision
+  - name: "27 widevpnbot XX"
+    type: vless
+    server: 5.35.34.245
+    port: 443
+    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "28 widevpnbot XX"
+    type: vless
+    server: 5.35.34.245
+    port: 8443
+    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "29 widevpnbot XX"
     type: vless
     server: 62.106.66.56
     port: 443
@@ -261,9 +237,33 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
+  - name: "30 widevpnbot NL"
+    type: vless
+    server: 46.149.78.103
+    port: 443
+    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "31 widevpnbot XX"
+    type: vless
+    server: 195.2.92.183
+    port: 443
+    uuid: 7c6c3d89-e709-551d-89a2-5889f374e2b1
+    tls: true
+    sni: vk.com
+    flow: xtls-rprx-vision
+  - name: "32 widevpnbot XX"
+    type: vless
+    server: 217.13.104.101
+    port: 443
+    uuid: 292e75fc-5a8a-40c4-b937-407c2400a42e
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
   - name: "33 widevpnbot XX"
     type: vless
-    server: 5.35.34.245
+    server: 185.21.13.109
     port: 443
     uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
     tls: true
@@ -279,37 +279,13 @@ proxies:
     flow: xtls-rprx-vision
   - name: "35 widevpnbot XX"
     type: vless
-    server: 217.13.104.101
+    server: freenl.strettenvpn.com
     port: 443
-    uuid: 292e75fc-5a8a-40c4-b937-407c2400a42e
+    uuid: 6e42dd0b-3d84-4d31-a4f8-e18e315414b8
     tls: true
-    sni: api-maps.yandex.ru
+    sni: sun6-21.userapi.com
     flow: xtls-rprx-vision
   - name: "36 widevpnbot XX"
-    type: vless
-    server: fr.silavpn.online
-    port: 443
-    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "37 widevpnbot XX"
-    type: vless
-    server: 151.247.25.103
-    port: 47030
-    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "38 widevpnbot XX"
-    type: vless
-    server: de.silavpn.online
-    port: 443
-    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "39 widevpnbot XX"
     type: vless
     server: 95.85.237.26
     port: 443
@@ -317,15 +293,23 @@ proxies:
     tls: true
     sni: vk.com
     flow: xtls-rprx-vision
-  - name: "40 widevpnbot XX"
+  - name: "37 widevpnbot NL"
     type: vless
-    server: in-pl-hn.ray-proxy.ru
+    server: 91.214.78.230
     port: 443
-    uuid: 3cb9f2c2-cd60-4616-963e-6a1c5d1c8b02
+    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
     tls: true
-    sni: eh.vk.com
+    sni: max.ru
     flow: xtls-rprx-vision
-  - name: "41 widevpnbot XX"
+  - name: "38 widevpnbot XX"
+    type: vless
+    server: 91.84.110.45
+    port: 443
+    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "39 widevpnbot XX"
     type: vless
     server: 37.27.21.167
     port: 58888
@@ -333,343 +317,23 @@ proxies:
     tls: true
     sni: yastatic.net
     flow: xtls-rprx-vision
+  - name: "40 widevpnbot XX"
+    type: vless
+    server: nl.x8lab.org
+    port: 443
+    uuid: e08d2d8b-173f-001f-8867-fb20f3cd26bd
+    tls: true
+    sni: www.kinopoisk.ru
+    flow: xtls-rprx-vision
+  - name: "41 widevpnbot XX"
+    type: vless
+    server: 217.13.104.213
+    port: 443
+    uuid: 156dd7b7-0f9f-467c-a3b7-9d29de83ee59
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
   - name: "42 widevpnbot XX"
-    type: vless
-    server: 185.232.170.44
-    port: 47004
-    uuid: 6f623839-1e6f-36ea-aa5b-5a8d9aa16fcd
-    tls: true
-    sni: sun6-21.userapi.com
-    flow: xtls-rprx-vision
-  - name: "43 widevpnbot XX"
-    type: vless
-    server: lat.silavpn.online
-    port: 443
-    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "44 widevpnbot XX"
-    type: vless
-    server: de.xtraxobot.ru
-    port: 8443
-    uuid: eb13c182-d224-43b9-a25d-5f5ca751ae93
-    tls: true
-    sni: cdn.s3.yandex.net
-    flow: xtls-rprx-vision
-  - name: "45 widevpnbot XX"
-    type: vless
-    server: 45.84.222.30
-    port: 443
-    uuid: 5cbc091c-6deb-48a3-899b-94d9a6b425f9
-    tls: true
-    sni: eh.vk.com
-    flow: xtls-rprx-vision
-  - name: "46 widevpnbot XX"
-    type: vless
-    server: freenl.strettenvpn.com
-    port: 443
-    uuid: 6e42dd0b-3d84-4d31-a4f8-e18e315414b8
-    tls: true
-    sni: sun6-21.userapi.com
-    flow: xtls-rprx-vision
-  - name: "47 widevpnbot EE"
-    type: vless
-    server: 95.85.224.240
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: m.vkvideo.cs7777.vk.ru
-    flow: xtls-rprx-vision
-  - name: "48 widevpnbot XX"
-    type: vless
-    server: 94.131.100.16
-    port: 47030
-    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "49 widevpnbot XX"
-    type: vless
-    server: 45.15.127.107
-    port: 443
-    uuid: 8df8d701-38b4-5175-89ef-7447a1250e67
-    tls: true
-    sni: eh.vk.com
-    flow: xtls-rprx-vision
-  - name: "50 widevpnbot XX"
-    type: vless
-    server: fin5.frostbot.ru
-    port: 443
-    uuid: 5b77fb18-cece-4759-9a81-571f1be53e0c
-    tls: true
-    sni: vk.com
-    flow: xtls-rprx-vision
-  - name: "51 widevpnbot XX"
-    type: vless
-    server: 95.85.224.28
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: m.vkvideo.cs7777.vk.ru
-    flow: xtls-rprx-vision
-  - name: "52 widevpnbot XX"
-    type: vless
-    server: 91.132.142.10
-    port: 443
-    uuid: 5b77fb18-cece-4759-9a81-571f1be53e0c
-    tls: true
-    sni: vk.com
-    flow: xtls-rprx-vision
-  - name: "53 widevpnbot XX"
-    type: vless
-    server: 91.243.86.229
-    port: 443
-    uuid: 1ab8b053-e36e-4dae-909c-41f495f542d7
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "54 widevpnbot RU"
-    type: vless
-    server: 77.110.104.147
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "55 widevpnbot XX"
-    type: vless
-    server: 193.233.89.109
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "56 widevpnbot RU"
-    type: vless
-    server: 37.9.4.147
-    port: 443
-    uuid: f1e93ece-5f74-4bfc-be89-b7996766c45d
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "57 widevpnbot XX"
-    type: vless
-    server: 5.188.115.98
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "58 widevpnbot XX"
-    type: vless
-    server: 51.250.11.192
-    port: 443
-    uuid: d487e211-b34b-48c7-9a2e-47fa9e5c51ed
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "59 widevpnbot XX"
-    type: vless
-    server: 95.85.249.1
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: m.vkvideo.cs7777.vk.ru
-    flow: xtls-rprx-vision
-  - name: "60 widevpnbot XX"
-    type: vless
-    server: 178.250.243.77
-    port: 443
-    uuid: d6dba391-9247-4a51-9e9b-eae045378b90
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "61 widevpnbot XX"
-    type: vless
-    server: 217.16.24.151
-    port: 443
-    uuid: d487e211-b34b-48c7-9a2e-47fa9e5c51ed
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "62 widevpnbot XX"
-    type: vless
-    server: 213.171.26.10
-    port: 3443
-    uuid: 09a4d949-5b91-4c50-a038-c8d17b5da02e
-    tls: true
-    sni: sun6-21.userapi.com
-    flow: xtls-rprx-vision
-  - name: "63 widevpnbot RU"
-    type: vless
-    server: 83.220.175.17
-    port: 443
-    uuid: a0b9444c-fad4-4b90-9011-e4441c2eeefc
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "64 widevpnbot XX"
-    type: vless
-    server: 158.160.120.38
-    port: 443
-    uuid: 19ff5f84-32b8-4a57-8537-2e3ac345927c
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "65 widevpnbot XX"
-    type: vless
-    server: 51.250.87.52
-    port: 443
-    uuid: 5227c724-fd26-4a16-927b-9b24b604425d
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "66 widevpnbot XX"
-    type: vless
-    server: wh1.ethervpn.pro
-    port: 47015
-    uuid: b52c39ab-6985-4399-bd02-9af48b0b3c6c
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "67 widevpnbot XX"
-    type: vless
-    server: 87.242.102.193
-    port: 8443
-    uuid: bc0602d4-86e3-4d58-80d8-afc6c67926a2
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "68 widevpnbot XX"
-    type: vless
-    server: 45.15.128.75
-    port: 8443
-    uuid: fad2b7e0-d80c-4b7b-a84f-d86e0e49f627
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "69 widevpnbot XX"
-    type: vless
-    server: auto.wequ.host
-    port: 443
-    uuid: 34222749-f6ff-457e-887b-ff11f3cec0a2
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "70 widevpnbot RU"
-    type: vless
-    server: 217.168.240.172
-    port: 3443
-    uuid: 09a4d949-5b91-4c50-a038-c8d17b5da02e
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "71 widevpnbot XX"
-    type: vless
-    server: tr.datanode-internal.net
-    port: 443
-    uuid: 422a1543-9f8b-44a1-a4bf-3a39fbb6276a
-    tls: true
-    sni: sun9-38.userapi.com
-    flow: xtls-rprx-vision
-  - name: "72 widevpnbot RU"
-    type: vless
-    server: 51.250.8.48
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "73 widevpnbot XX"
-    type: vless
-    server: 89.208.210.40
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "74 widevpnbot RU"
-    type: vless
-    server: 109.120.191.115
-    port: 8444
-    uuid: eb73189e-0646-4d8d-9642-19769d0ce754
-    tls: true
-    sni: eh.vk.com
-    flow: xtls-rprx-vision
-  - name: "75 widevpnbot RU"
-    type: vless
-    server: 51.250.73.252
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "76 widevpnbot RU"
-    type: vless
-    server: 84.201.130.198
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "77 widevpnbot XX"
-    type: vless
-    server: wh1.ethervpn.pro
-    port: 8444
-    uuid: b52c39ab-6985-4399-bd02-9af48b0b3c6c
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "78 widevpnbot RU"
-    type: vless
-    server: 158.160.34.116
-    port: 443
-    uuid: d487e211-b34b-48c7-9a2e-47fa9e5c51ed
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "79 widevpnbot RU"
-    type: vless
-    server: 84.201.189.24
-    port: 3002
-    uuid: 83365345-46ba-4209-b1e4-caab349b399a
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "80 widevpnbot RU"
-    type: vless
-    server: 95.163.214.219
-    port: 8443
-    uuid: 34222749-f6ff-457e-887b-ff11f3cec0a2
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "81 widevpnbot RU"
-    type: vless
-    server: 212.111.84.82
-    port: 443
-    uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
-    tls: true
-    sni: m.vk.ru
-    flow: xtls-rprx-vision
-  - name: "82 widevpnbot XX"
-    type: vless
-    server: 178.250.243.77
-    port: 5444
-    uuid: d6dba391-9247-4a51-9e9b-eae045378b90
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "83 widevpnbot RU"
-    type: vless
-    server: 158.160.53.57
-    port: 443
-    uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "84 widevpnbot XX"
     type: vless
     server: 89.19.223.62
     port: 3443
@@ -677,15 +341,207 @@ proxies:
     tls: true
     sni: yandex.com
     flow: xtls-rprx-vision
-  - name: "85 widevpnbot RU"
+  - name: "43 widevpnbot XX"
     type: vless
-    server: 89.208.211.125
+    server: 45.84.222.30
     port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
+    uuid: 5cbc091c-6deb-48a3-899b-94d9a6b425f9
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "44 widevpnbot XX"
+    type: vless
+    server: lat.silavpn.online
+    port: 443
+    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "45 widevpnbot XX"
+    type: vless
+    server: 94.131.100.16
+    port: 47030
+    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "46 widevpnbot XX"
+    type: vless
+    server: 45.15.127.107
+    port: 443
+    uuid: 8df8d701-38b4-5175-89ef-7447a1250e67
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "47 widevpnbot XX"
+    type: vless
+    server: 46.182.24.154
+    port: 443
+    uuid: e02dc303-3092-42c3-8872-27fb821fc3c0
+    tls: true
+    sni: static.rutube.ru
+    flow: xtls-rprx-vision
+  - name: "48 widevpnbot XX"
+    type: vless
+    server: de.xtraxobot.ru
+    port: 8443
+    uuid: eb13c182-d224-43b9-a25d-5f5ca751ae93
+    tls: true
+    sni: cdn.s3.yandex.net
+    flow: xtls-rprx-vision
+  - name: "49 widevpnbot XX"
+    type: vless
+    server: 91.243.86.229
+    port: 443
+    uuid: 1ab8b053-e36e-4dae-909c-41f495f542d7
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "50 widevpnbot RU"
+    type: vless
+    server: 51.250.8.48
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
     tls: true
     sni: yandex.ru
     flow: xtls-rprx-vision
-  - name: "86 widevpnbot RU"
+  - name: "51 widevpnbot XX"
+    type: vless
+    server: 95.85.224.28
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: m.vkvideo.cs7777.vk.ru
+    flow: xtls-rprx-vision
+  - name: "52 widevpnbot XX"
+    type: vless
+    server: 94.131.100.163
+    port: 443
+    uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
+    tls: true
+    sni: api.avito.ru
+    flow: xtls-rprx-vision
+  - name: "53 widevpnbot XX"
+    type: vless
+    server: 91.132.142.10
+    port: 443
+    uuid: 5b77fb18-cece-4759-9a81-571f1be53e0c
+    tls: true
+    sni: vk.com
+    flow: xtls-rprx-vision
+  - name: "54 widevpnbot EE"
+    type: vless
+    server: 95.85.224.240
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: m.vkvideo.cs7777.vk.ru
+    flow: xtls-rprx-vision
+  - name: "55 widevpnbot XX"
+    type: vless
+    server: 45.15.128.75
+    port: 8443
+    uuid: fad2b7e0-d80c-4b7b-a84f-d86e0e49f627
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "56 widevpnbot XX"
+    type: vless
+    server: 193.233.89.109
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "57 widevpnbot RU"
+    type: vless
+    server: 185.91.52.37
+    port: 443
+    uuid: e02dc303-3092-42c3-8872-27fb821fc3c0
+    tls: true
+    sni: static.rutube.ru
+    flow: xtls-rprx-vision
+  - name: "58 widevpnbot RU"
+    type: vless
+    server: 83.220.175.17
+    port: 443
+    uuid: a0b9444c-fad4-4b90-9011-e4441c2eeefc
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "59 widevpnbot XX"
+    type: vless
+    server: 217.16.24.151
+    port: 443
+    uuid: b99dbdb1-cff0-42fc-8409-e5c45a6d7048
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "60 widevpnbot XX"
+    type: vless
+    server: 188.68.218.72
+    port: 443
+    uuid: 3a2781cd-ade8-493f-87ff-f557fdb3dd56
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "61 widevpnbot RU"
+    type: vless
+    server: 51.250.34.38
+    port: 3000
+    uuid: d9578d17-f452-42d8-8fdc-5c6975a98fa7
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "62 widevpnbot XX"
+    type: vless
+    server: 5.188.115.98
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "63 widevpnbot XX"
+    type: vless
+    server: 178.250.243.77
+    port: 5444
+    uuid: d6dba391-9247-4a51-9e9b-eae045378b90
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "64 widevpnbot XX"
+    type: vless
+    server: tr.datanode-internal.net
+    port: 443
+    uuid: 422a1543-9f8b-44a1-a4bf-3a39fbb6276a
+    tls: true
+    sni: sun9-38.userapi.com
+    flow: xtls-rprx-vision
+  - name: "65 widevpnbot XX"
+    type: vless
+    server: 178.250.243.77
+    port: 443
+    uuid: d6dba391-9247-4a51-9e9b-eae045378b90
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "66 widevpnbot XX"
+    type: vless
+    server: 5.188.115.29
+    port: 443
+    uuid: 3a2781cd-ade8-493f-87ff-f557fdb3dd56
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "67 widevpnbot XX"
+    type: vless
+    server: 213.171.26.10
+    port: 3443
+    uuid: 09a4d949-5b91-4c50-a038-c8d17b5da02e
+    tls: true
+    sni: sun6-21.userapi.com
+    flow: xtls-rprx-vision
+  - name: "68 widevpnbot RU"
     type: vless
     server: 51.250.81.79
     port: 8443
@@ -693,7 +549,135 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "87 widevpnbot RU"
+  - name: "69 widevpnbot XX"
+    type: vless
+    server: wh1.ethervpn.pro
+    port: 47015
+    uuid: b52c39ab-6985-4399-bd02-9af48b0b3c6c
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "70 widevpnbot RU"
+    type: vless
+    server: 217.168.240.172
+    port: 2443
+    uuid: 09a4d949-5b91-4c50-a038-c8d17b5da02e
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "71 widevpnbot XX"
+    type: vless
+    server: 51.250.87.52
+    port: 443
+    uuid: 5227c724-fd26-4a16-927b-9b24b604425d
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "72 widevpnbot XX"
+    type: vless
+    server: fin5.frostbot.ru
+    port: 443
+    uuid: 5b77fb18-cece-4759-9a81-571f1be53e0c
+    tls: true
+    sni: vk.com
+    flow: xtls-rprx-vision
+  - name: "73 widevpnbot RU"
+    type: vless
+    server: 158.160.53.57
+    port: 443
+    uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "74 widevpnbot RU"
+    type: vless
+    server: 84.201.130.198
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "75 widevpnbot RU"
+    type: vless
+    server: 51.250.74.101
+    port: 443
+    uuid: b99dbdb1-cff0-42fc-8409-e5c45a6d7048
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "76 widevpnbot XX"
+    type: vless
+    server: 95.85.249.53
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: m.vkvideo.cs7777.vk.ru
+    flow: xtls-rprx-vision
+  - name: "77 widevpnbot XX"
+    type: vless
+    server: 87.242.102.193
+    port: 8443
+    uuid: bc0602d4-86e3-4d58-80d8-afc6c67926a2
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "78 widevpnbot XX"
+    type: vless
+    server: 158.160.120.38
+    port: 443
+    uuid: 19ff5f84-32b8-4a57-8537-2e3ac345927c
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "79 widevpnbot RU"
+    type: vless
+    server: 84.201.189.24
+    port: 3002
+    uuid: d9578d17-f452-42d8-8fdc-5c6975a98fa7
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "80 widevpnbot RU"
+    type: vless
+    server: 84.201.189.24
+    port: 3000
+    uuid: d9578d17-f452-42d8-8fdc-5c6975a98fa7
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "81 widevpnbot XX"
+    type: vless
+    server: wh1.ethervpn.pro
+    port: 8444
+    uuid: b52c39ab-6985-4399-bd02-9af48b0b3c6c
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "82 widevpnbot XX"
+    type: vless
+    server: auto.wequ.host
+    port: 443
+    uuid: 34222749-f6ff-457e-887b-ff11f3cec0a2
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "83 widevpnbot XX"
+    type: vless
+    server: nl.pfvpn.cfd
+    port: 443
+    uuid: 4cc545b9-1343-48fd-b5e2-aaf37216f48d
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "84 widevpnbot RU"
+    type: vless
+    server: 217.168.240.172
+    port: 3443
+    uuid: 09a4d949-5b91-4c50-a038-c8d17b5da02e
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "85 widevpnbot RU"
     type: vless
     server: 217.168.240.172
     port: 443
@@ -701,39 +685,31 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "88 widevpnbot XX"
+  - name: "86 widevpnbot XX"
     type: vless
-    server: 79.174.93.60
-    port: 443
-    uuid: 02ceb329-ae7b-4d39-8b15-869385378b70
+    server: 176.120.67.77
+    port: 8443
+    uuid: d0dea598-9047-4567-a934-84c2797c0978
     tls: true
-    sni: static.rutube.ru
+    sni: ozon.ru
     flow: xtls-rprx-vision
-  - name: "89 widevpnbot RU"
+  - name: "87 widevpnbot RU"
     type: vless
-    server: 51.250.39.213
-    port: 3000
-    uuid: 83365345-46ba-4209-b1e4-caab349b399a
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "90 widevpnbot XX"
-    type: vless
-    server: 51.250.120.99
+    server: 89.208.211.125
     port: 443
-    uuid: 55e8a684-a9ba-46d1-9812-019e48958b7d
-    tls: true
-    sni: sun6-20.userapi.com
-    flow: xtls-rprx-vision
-  - name: "91 widevpnbot RU"
-    type: vless
-    server: 51.250.3.195
-    port: 443
-    uuid: 266b0b28-a035-4f44-a43c-1b6d55158b1b
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
     tls: true
     sni: yandex.ru
     flow: xtls-rprx-vision
-  - name: "92 widevpnbot RU"
+  - name: "88 widevpnbot RU"
+    type: vless
+    server: 51.250.68.94
+    port: 3000
+    uuid: d9578d17-f452-42d8-8fdc-5c6975a98fa7
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "89 widevpnbot RU"
     type: vless
     server: 5.188.143.213
     port: 443
@@ -741,15 +717,31 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "93 widevpnbot RU"
+  - name: "90 widevpnbot RU"
     type: vless
-    server: 84.201.143.74
-    port: 443
-    uuid: f1e93ece-5f74-4bfc-be89-b7996766c45d
+    server: 95.163.214.219
+    port: 8443
+    uuid: 34222749-f6ff-457e-887b-ff11f3cec0a2
     tls: true
-    sni: yandex.ru
+    sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
-  - name: "94 widevpnbot XX"
+  - name: "91 widevpnbot XX"
+    type: vless
+    server: 176.120.67.95
+    port: 8443
+    uuid: d0dea598-9047-4567-a934-84c2797c0978
+    tls: true
+    sni: ozon.ru
+    flow: xtls-rprx-vision
+  - name: "92 widevpnbot XX"
+    type: vless
+    server: 151.247.25.103
+    port: 47030
+    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "93 widevpnbot XX"
     type: vless
     server: tr-1.illusion-vpn.ru
     port: 52000
@@ -757,13 +749,21 @@ proxies:
     tls: true
     sni: ozon.ru
     flow: xtls-rprx-vision
+  - name: "94 widevpnbot RU"
+    type: vless
+    server: 109.120.191.115
+    port: 8444
+    uuid: eb73189e-0646-4d8d-9642-19769d0ce754
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
   - name: "95 widevpnbot XX"
     type: vless
-    server: fastcon-tgg.harknmav.fun
+    server: 146.185.210.165
     port: 443
-    uuid: 50b95deb-6394-46c5-b88a-583e5b3ca7ee
+    uuid: b99dbdb1-cff0-42fc-8409-e5c45a6d7048
     tls: true
-    sni: max.ru
+    sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
   - name: "96 widevpnbot XX"
     type: vless
@@ -773,23 +773,39 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "97 widevpnbot XX"
+  - name: "97 widevpnbot RU"
     type: vless
-    server: 146.185.210.165
+    server: 51.250.73.252
     port: 443
-    uuid: d487e211-b34b-48c7-9a2e-47fa9e5c51ed
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
     tls: true
-    sni: api-maps.yandex.ru
+    sni: yandex.ru
     flow: xtls-rprx-vision
-  - name: "98 widevpnbot XX"
+  - name: "98 widevpnbot RU"
     type: vless
-    server: 72.56.237.204
+    server: 51.250.3.195
     port: 443
-    uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
     tls: true
     sni: yandex.ru
     flow: xtls-rprx-vision
   - name: "99 widevpnbot XX"
+    type: vless
+    server: 79.174.93.60
+    port: 443
+    uuid: e02dc303-3092-42c3-8872-27fb821fc3c0
+    tls: true
+    sni: m.47news.ru
+    flow: xtls-rprx-vision
+  - name: "100 widevpnbot XX"
+    type: vless
+    server: fastcon-tgg.harknmav.fun
+    port: 443
+    uuid: 50b95deb-6394-46c5-b88a-583e5b3ca7ee
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "101 widevpnbot XX"
     type: vless
     server: 51.250.78.186
     port: 443
@@ -797,55 +813,47 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "100 widevpnbot RU"
-    type: vless
-    server: 84.201.189.24
-    port: 3000
-    uuid: 83365345-46ba-4209-b1e4-caab349b399a
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "101 widevpnbot RU"
-    type: vless
-    server: 155.212.223.55
-    port: 52000
-    uuid: bf263367-bb63-4663-b4a1-34946107a72e
-    tls: true
-    sni: ozon.ru
-    flow: xtls-rprx-vision
   - name: "102 widevpnbot XX"
     type: vless
-    server: 148.253.208.98
-    port: 20222
-    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
+    server: 72.56.237.204
+    port: 443
+    uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
     tls: true
-    sni: stats.vk-portal.net
+    sni: yandex.ru
     flow: xtls-rprx-vision
-  - name: "103 widevpnbot XX"
+  - name: "103 widevpnbot RU"
     type: vless
-    server: 94.131.121.189
-    port: 10443
-    uuid: b44c5ed1-317b-47b3-b595-338a2191a7f2
+    server: 84.201.143.74
+    port: 443
+    uuid: 3a2781cd-ade8-493f-87ff-f557fdb3dd56
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
   - name: "104 widevpnbot XX"
     type: vless
-    server: 94.131.121.189
-    port: 8443
-    uuid: b44c5ed1-317b-47b3-b595-338a2191a7f2
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "105 widevpnbot XX"
-    type: vless
-    server: 94.131.121.189
+    server: 51.250.120.99
     port: 443
-    uuid: b44c5ed1-317b-47b3-b595-338a2191a7f2
+    uuid: 55e8a684-a9ba-46d1-9812-019e48958b7d
     tls: true
-    sni: max.ru
+    sni: sun6-20.userapi.com
+    flow: xtls-rprx-vision
+  - name: "105 widevpnbot RU"
+    type: vless
+    server: 77.110.104.147
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: yandex.ru
     flow: xtls-rprx-vision
   - name: "106 widevpnbot XX"
+    type: vless
+    server: 95.85.249.1
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: m.vkvideo.cs7777.vk.ru
+    flow: xtls-rprx-vision
+  - name: "107 widevpnbot XX"
     type: vless
     server: 51.250.24.245
     port: 443
@@ -853,15 +861,15 @@ proxies:
     tls: true
     sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
-  - name: "107 widevpnbot XX"
-    type: vless
-    server: 159.194.213.95
-    port: 52000
-    uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
-    tls: true
-    sni: ozon.ru
-    flow: xtls-rprx-vision
   - name: "108 widevpnbot XX"
+    type: vless
+    server: 94.131.121.189
+    port: 443
+    uuid: b44c5ed1-317b-47b3-b595-338a2191a7f2
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "109 widevpnbot XX"
     type: vless
     server: b2v0f7e-k2zfef.95.yndx-cdn.com
     port: 40443
@@ -869,7 +877,7 @@ proxies:
     tls: true
     sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
-  - name: "109 widevpnbot RU"
+  - name: "110 widevpnbot RU"
     type: vless
     server: 158.160.82.8
     port: 443
@@ -877,7 +885,31 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "110 widevpnbot XX"
+  - name: "111 widevpnbot RU"
+    type: vless
+    server: 46.254.18.60
+    port: 443
+    uuid: ff5db11d-cc16-4254-93eb-1e4174e9782f
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "112 widevpnbot XX"
+    type: vless
+    server: 94.131.121.189
+    port: 8443
+    uuid: b44c5ed1-317b-47b3-b595-338a2191a7f2
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "113 widevpnbot XX"
+    type: vless
+    server: 159.194.213.95
+    port: 52000
+    uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
+    tls: true
+    sni: ozon.ru
+    flow: xtls-rprx-vision
+  - name: "114 widevpnbot XX"
     type: vless
     server: edge8.samovargate.com
     port: 443
@@ -885,7 +917,23 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "111 widevpnbot XX"
+  - name: "115 widevpnbot XX"
+    type: vless
+    server: 94.131.121.189
+    port: 10443
+    uuid: b44c5ed1-317b-47b3-b595-338a2191a7f2
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "116 widevpnbot RU"
+    type: vless
+    server: 155.212.223.55
+    port: 52000
+    uuid: bf263367-bb63-4663-b4a1-34946107a72e
+    tls: true
+    sni: ozon.ru
+    flow: xtls-rprx-vision
+  - name: "117 widevpnbot XX"
     type: vless
     server: 92.118.10.222
     port: 47004
@@ -893,7 +941,7 @@ proxies:
     tls: true
     sni: sun6-21.userapi.com
     flow: xtls-rprx-vision
-  - name: "112 widevpnbot XX"
+  - name: "118 widevpnbot XX"
     type: vless
     server: 103.35.188.229
     port: 47030
@@ -901,23 +949,7 @@ proxies:
     tls: true
     sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
-  - name: "113 widevpnbot XX"
-    type: vless
-    server: 158.160.211.49
-    port: 443
-    uuid: f1e93ece-5f74-4bfc-be89-b7996766c45d
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "114 widevpnbot XX"
-    type: vless
-    server: 62.152.59.134
-    port: 443
-    uuid: d487e211-b34b-48c7-9a2e-47fa9e5c51ed
-    tls: true
-    sni: web.max.ru
-    flow: xtls-rprx-vision
-  - name: "115 widevpnbot XX"
+  - name: "119 widevpnbot XX"
     type: vless
     server: free.nexyonn.com
     port: 443
@@ -925,7 +957,23 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "116 widevpnbot XX"
+  - name: "120 widevpnbot XX"
+    type: vless
+    server: 158.160.211.49
+    port: 443
+    uuid: 3a2781cd-ade8-493f-87ff-f557fdb3dd56
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "121 widevpnbot RU"
+    type: vless
+    server: 51.250.31.112
+    port: 443
+    uuid: 3a2781cd-ade8-493f-87ff-f557fdb3dd56
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "122 widevpnbot XX"
     type: vless
     server: 178.250.243.56
     port: 443
@@ -933,7 +981,15 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "117 widevpnbot XX"
+  - name: "123 widevpnbot XX"
+    type: vless
+    server: 148.253.208.98
+    port: 20222
+    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
+    tls: true
+    sni: stats.vk-portal.net
+    flow: xtls-rprx-vision
+  - name: "124 widevpnbot XX"
     type: vless
     server: 15.204.12.101
     port: 443
@@ -941,64 +997,64 @@ proxies:
     tls: true
     sni: yandex.com
     flow: xtls-rprx-vision
-  - name: "118 widevpnbot XX"
+  - name: "125 widevpnbot XX"
     type: vless
-    server: 84.201.167.189
+    server: fr.silavpn.online
     port: 443
-    uuid: f1e93ece-5f74-4bfc-be89-b7996766c45d
+    uuid: 0fa0796d-0bce-4267-8d84-210e207513f3
     tls: true
-    sni: api-maps.yandex.ru
+    sni: max.ru
     flow: xtls-rprx-vision
-  - name: "119 widevpnbot XX"
+  - name: "126 widevpnbot XX"
     type: vless
     server: 51.250.106.108
     port: 443
-    uuid: f1e93ece-5f74-4bfc-be89-b7996766c45d
+    uuid: 3a2781cd-ade8-493f-87ff-f557fdb3dd56
     tls: true
-    sni: yandex.ru
+    sni: max.ru
     flow: xtls-rprx-vision
 
 proxy-groups:
   - name: 🚀 PROXY
     type: select
     proxies:
-      - "1 widevpnbot NL"
+      - "1 widevpnbot XX"
       - "2 widevpnbot XX"
       - "3 widevpnbot XX"
-      - "4 widevpnbot NL"
-      - "5 widevpnbot XX"
+      - "4 widevpnbot XX"
+      - "5 widevpnbot NL"
       - "6 widevpnbot NL"
       - "7 widevpnbot NL"
       - "8 widevpnbot XX"
       - "9 widevpnbot XX"
-      - "10 widevpnbot XX"
-      - "11 widevpnbot NL"
+      - "10 widevpnbot NL"
+      - "11 widevpnbot XX"
       - "12 widevpnbot XX"
       - "13 widevpnbot XX"
       - "14 widevpnbot XX"
-      - "15 widevpnbot XX"
+      - "15 widevpnbot NL"
       - "16 widevpnbot NL"
       - "17 widevpnbot XX"
       - "18 widevpnbot XX"
-      - "19 widevpnbot XX"
-      - "20 widevpnbot US"
-      - "21 widevpnbot NL"
-      - "22 widevpnbot XX"
-      - "23 widevpnbot XX"
-      - "24 widevpnbot FR"
+      - "19 widevpnbot NL"
+      - "20 widevpnbot XX"
+      - "21 widevpnbot XX"
+      - "22 widevpnbot FR"
+      - "23 widevpnbot US"
+      - "24 widevpnbot XX"
       - "25 widevpnbot XX"
       - "26 widevpnbot XX"
-      - "27 widevpnbot NL"
+      - "27 widevpnbot XX"
       - "28 widevpnbot XX"
       - "29 widevpnbot XX"
-      - "30 widevpnbot XX"
+      - "30 widevpnbot NL"
       - "31 widevpnbot XX"
       - "32 widevpnbot XX"
       - "33 widevpnbot XX"
       - "34 widevpnbot DE"
       - "35 widevpnbot XX"
       - "36 widevpnbot XX"
-      - "37 widevpnbot XX"
+      - "37 widevpnbot NL"
       - "38 widevpnbot XX"
       - "39 widevpnbot XX"
       - "40 widevpnbot XX"
@@ -1008,79 +1064,86 @@ proxy-groups:
       - "44 widevpnbot XX"
       - "45 widevpnbot XX"
       - "46 widevpnbot XX"
-      - "47 widevpnbot EE"
+      - "47 widevpnbot XX"
       - "48 widevpnbot XX"
       - "49 widevpnbot XX"
-      - "50 widevpnbot XX"
+      - "50 widevpnbot RU"
       - "51 widevpnbot XX"
       - "52 widevpnbot XX"
       - "53 widevpnbot XX"
-      - "54 widevpnbot RU"
+      - "54 widevpnbot EE"
       - "55 widevpnbot XX"
-      - "56 widevpnbot RU"
-      - "57 widevpnbot XX"
-      - "58 widevpnbot XX"
+      - "56 widevpnbot XX"
+      - "57 widevpnbot RU"
+      - "58 widevpnbot RU"
       - "59 widevpnbot XX"
       - "60 widevpnbot XX"
-      - "61 widevpnbot XX"
+      - "61 widevpnbot RU"
       - "62 widevpnbot XX"
-      - "63 widevpnbot RU"
+      - "63 widevpnbot XX"
       - "64 widevpnbot XX"
       - "65 widevpnbot XX"
       - "66 widevpnbot XX"
       - "67 widevpnbot XX"
-      - "68 widevpnbot XX"
+      - "68 widevpnbot RU"
       - "69 widevpnbot XX"
       - "70 widevpnbot RU"
       - "71 widevpnbot XX"
-      - "72 widevpnbot RU"
-      - "73 widevpnbot XX"
+      - "72 widevpnbot XX"
+      - "73 widevpnbot RU"
       - "74 widevpnbot RU"
       - "75 widevpnbot RU"
-      - "76 widevpnbot RU"
+      - "76 widevpnbot XX"
       - "77 widevpnbot XX"
-      - "78 widevpnbot RU"
+      - "78 widevpnbot XX"
       - "79 widevpnbot RU"
       - "80 widevpnbot RU"
-      - "81 widevpnbot RU"
+      - "81 widevpnbot XX"
       - "82 widevpnbot XX"
-      - "83 widevpnbot RU"
-      - "84 widevpnbot XX"
+      - "83 widevpnbot XX"
+      - "84 widevpnbot RU"
       - "85 widevpnbot RU"
-      - "86 widevpnbot RU"
+      - "86 widevpnbot XX"
       - "87 widevpnbot RU"
-      - "88 widevpnbot XX"
+      - "88 widevpnbot RU"
       - "89 widevpnbot RU"
-      - "90 widevpnbot XX"
-      - "91 widevpnbot RU"
-      - "92 widevpnbot RU"
-      - "93 widevpnbot RU"
-      - "94 widevpnbot XX"
+      - "90 widevpnbot RU"
+      - "91 widevpnbot XX"
+      - "92 widevpnbot XX"
+      - "93 widevpnbot XX"
+      - "94 widevpnbot RU"
       - "95 widevpnbot XX"
       - "96 widevpnbot XX"
-      - "97 widevpnbot XX"
-      - "98 widevpnbot XX"
+      - "97 widevpnbot RU"
+      - "98 widevpnbot RU"
       - "99 widevpnbot XX"
-      - "100 widevpnbot RU"
-      - "101 widevpnbot RU"
+      - "100 widevpnbot XX"
+      - "101 widevpnbot XX"
       - "102 widevpnbot XX"
-      - "103 widevpnbot XX"
+      - "103 widevpnbot RU"
       - "104 widevpnbot XX"
-      - "105 widevpnbot XX"
+      - "105 widevpnbot RU"
       - "106 widevpnbot XX"
       - "107 widevpnbot XX"
       - "108 widevpnbot XX"
-      - "109 widevpnbot RU"
-      - "110 widevpnbot XX"
-      - "111 widevpnbot XX"
+      - "109 widevpnbot XX"
+      - "110 widevpnbot RU"
+      - "111 widevpnbot RU"
       - "112 widevpnbot XX"
       - "113 widevpnbot XX"
       - "114 widevpnbot XX"
       - "115 widevpnbot XX"
-      - "116 widevpnbot XX"
+      - "116 widevpnbot RU"
       - "117 widevpnbot XX"
       - "118 widevpnbot XX"
       - "119 widevpnbot XX"
+      - "120 widevpnbot XX"
+      - "121 widevpnbot RU"
+      - "122 widevpnbot XX"
+      - "123 widevpnbot XX"
+      - "124 widevpnbot XX"
+      - "125 widevpnbot XX"
+      - "126 widevpnbot XX"
 
 rules:
   - MATCH,🚀 PROXY
