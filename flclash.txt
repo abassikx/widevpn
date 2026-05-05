@@ -5,375 +5,111 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - name: "1 XX 31ms NA"
+  - name: "1 DE 9ms NA"
     type: vless
-    server: 178.248.238.84
-    port: 40443
-    uuid: c9df9ad8-211a-4732-9e12-e683d0ccdd0a
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "2 XX 73ms NA"
-    type: vless
-    server: 89.144.53.99
-    port: 2040
-    uuid: 59b8c4a7-0c14-4d7f-8314-7dab904b83f9
-    tls: true
-    sni: sun6-22.userapi.com
-    flow: xtls-rprx-vision
-  - name: "3 XX 78ms NA"
-    type: vless
-    server: 95.128.157.251
-    port: 19204
-    uuid: 64db2f79-0d80-4d1a-a2d2-1b46e394ccb1
-    tls: true
-    sni: static.beeline.ru
-    flow: xtls-rprx-vision
-  - name: "4 XX 80ms NA"
-    type: vless
-    server: 95.128.157.251
-    port: 56452
-    uuid: d1bf93d6-7f2e-4941-855d-46b41ab95f30
-    tls: true
-    sni: sun6-21.userapi.com
-    flow: xtls-rprx-vision
-  - name: "5 XX 81ms NA"
-    type: vless
-    server: 5.35.34.181
+    server: 185.235.241.67
     port: 443
-    uuid: 1f8494d3-51a3-420e-8b51-494851573741
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
     tls: true
     sni: web.max.ru
     flow: xtls-rprx-vision
-  - name: "6 NL 83ms NA"
+  - name: "2 NL 16ms NA"
     type: vless
-    server: 89.124.114.182
+    server: 185.245.107.187
+    port: 8443
+    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "3 RU 19ms NA"
+    type: vless
+    server: 212.22.82.222
     port: 443
-    uuid: aed996ff-eca0-4d4a-b2f3-01362ec4d48d
+    uuid: 31fb98b7-e7a1-4b56-8c6a-3f060f06393c
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "4 DE 24ms NA"
+    type: vless
+    server: 150.241.95.254
+    port: 443
+    uuid: baf58265-6974-4cf8-8590-97231319e312
     tls: true
     sni: vk.com
     flow: xtls-rprx-vision
-  - name: "7 XX 85ms NA"
+  - name: "5 NL 30ms NA"
     type: vless
-    server: 45.144.50.231
-    port: 47011
-    uuid: 6916b333-7349-4551-b0c4-1c14659ed7ce
-    tls: true
-    sni: travel.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "8 XX 85ms NA"
-    type: vless
-    server: 46.33.10.106
+    server: 62.84.96.96
     port: 8443
-    uuid: ad7a9316-1953-439a-854f-66355100a004
-    tls: true
-    sni: web.max.ru
-    flow: xtls-rprx-vision
-  - name: "9 RU 92ms NA"
-    type: vless
-    server: 31.129.42.2
-    port: 7443
-    uuid: e3112e2d-7d6c-4446-beca-4e5a9fbb585e
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "10 RU 93ms NA"
-    type: vless
-    server: 37.9.4.248
-    port: 443
-    uuid: c5de4fc2-e787-4ca4-8614-d2684aa4a877
-    tls: true
-    sni: static.rutube.ru
-    flow: xtls-rprx-vision
-  - name: "11 RU 96ms NA"
-    type: vless
-    server: 84.201.144.248
-    port: 443
-    uuid: 6a1a433c-93d5-4e00-bb8b-cda23e1ee4c5
-    tls: true
-    sni: eh.vk.com
-    flow: xtls-rprx-vision
-  - name: "12 XX 96ms NA"
-    type: vless
-    server: 193.43.146.34
-    port: 8443
-    uuid: d0dea598-9047-4567-a934-84c2797c0978
-    tls: true
-    sni: ozon.ru
-    flow: xtls-rprx-vision
-  - name: "13 XX 97ms NA"
-    type: vless
-    server: 77.110.104.147
-    port: 443
-    uuid: 55a06660-d761-4741-b48f-35efac5ab1d3
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "14 XX 98ms NA"
-    type: vless
-    server: 193.43.146.15
-    port: 8443
-    uuid: d0dea598-9047-4567-a934-84c2797c0978
-    tls: true
-    sni: ozon.ru
-    flow: xtls-rprx-vision
-  - name: "15 XX 98ms NA"
-    type: vless
-    server: 178.250.243.21
-    port: 443
-    uuid: c3ef0f28-7123-4dd5-aa69-6a99b13fa65f
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "16 XX 99ms NA"
-    type: vless
-    server: 147.45.217.250
-    port: 443
-    uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
+    uuid: 1ef15939-7ec4-427f-9d47-eed9ced4c96f
     tls: true
     sni: sun6-22.userapi.com
     flow: xtls-rprx-vision
-  - name: "17 XX 100ms NA"
+  - name: "6 DE 31ms NA"
     type: vless
-    server: 51.250.93.122
+    server: 45.86.70.95
+    port: 8443
+    uuid: 1e45a266-9a04-47af-b703-e53a67373cc9
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "7 RU 33ms NA"
+    type: vless
+    server: 79.174.91.100
+    port: 2446
+    uuid: e30ea7ee-c7a7-41e2-b47a-92557cf38387
+    tls: true
+    sni: ir.ozone.ru
+    flow: xtls-rprx-vision
+  - name: "8 NL 35ms NA"
+    type: vless
+    server: 5.35.34.245
     port: 443
-    uuid: f34c6ab1-d8cf-41f2-b9df-872e7167db08
+    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "9 RU 38ms NA"
+    type: vless
+    server: 5.178.85.132
+    port: 443
+    uuid: 1b2abb50-b89b-4c04-92af-1b222d8e6509
     tls: true
     sni: yandex.ru
     flow: xtls-rprx-vision
-  - name: "18 XX 100ms NA"
+  - name: "10 NL 38ms NA"
     type: vless
-    server: 109.120.191.230
-    port: 80
-    uuid: 26bc61d7-1185-43c9-aa95-fc3445dd3388
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "19 XX 100ms NA"
-    type: vless
-    server: 51.250.66.16
+    server: 45.84.222.30
     port: 443
-    uuid: ae9d4b8b-e042-487f-8dce-25194d813c26
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "20 XX 100ms NA"
-    type: vless
-    server: 84.252.135.181
-    port: 443
-    uuid: e3112e2d-7d6c-4446-beca-4e5a9fbb585e
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "21 XX 100ms NA"
-    type: vless
-    server: 158.160.120.24
-    port: 443
-    uuid: 8d8ba9a0-091c-412f-885c-a2bbbef7eabe
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "22 XX 100ms NA"
-    type: vless
-    server: 79.174.91.100
-    port: 2445
-    uuid: 3b084500-9025-414a-8ebe-8389d8585fcc
-    tls: true
-    sni: akashi.vk-portal.net
-    flow: xtls-rprx-vision
-  - name: "23 XX 101ms NA"
-    type: vless
-    server: 158.160.122.138
-    port: 443
-    uuid: 167a291b-bcae-4422-8338-51750a474a87
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "24 XX 101ms NA"
-    type: vless
-    server: 84.201.172.95
-    port: 443
-    uuid: 4e3c869a-46cf-4d26-af5f-bb682c20b46a
-    tls: true
-    sni: web.max.ru
-    flow: xtls-rprx-vision
-  - name: "25 XX 101ms NA"
-    type: vless
-    server: 91.219.227.203
-    port: 8081
-    uuid: f3ac79f1-1dc5-4261-81f3-34a0d9a9a5ed
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "26 XX 101ms NA"
-    type: vless
-    server: 84.252.135.181
-    port: 7443
-    uuid: e3112e2d-7d6c-4446-beca-4e5a9fbb585e
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "27 XX 101ms NA"
-    type: vless
-    server: 158.160.38.209
-    port: 443
-    uuid: 8d8ba9a0-091c-412f-885c-a2bbbef7eabe
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "28 XX 101ms NA"
-    type: vless
-    server: 79.174.95.200
-    port: 5447
-    uuid: 711a53e5-8433-42a0-868f-ebce59b2f28d
-    tls: true
-    sni: st.okcdn.ru
-    flow: xtls-rprx-vision
-  - name: "29 XX 101ms NA"
-    type: vless
-    server: 158.160.113.155
-    port: 2053
-    uuid: 30e56a15-0f8a-4f8c-9900-e1a41a1905c7
-    tls: true
-    sni: sun6-21.userapi.com
-    flow: xtls-rprx-vision
-  - name: "30 XX 101ms NA"
-    type: vless
-    server: 79.174.91.100
-    port: 2448
-    uuid: 42d1ca10-4fc6-4333-ba80-5b6cc3edc332
-    tls: true
-    sni: m.ok.ru
-    flow: xtls-rprx-vision
-  - name: "31 XX 101ms NA"
-    type: vless
-    server: 51.250.45.71
-    port: 443
-    uuid: f016135c-f710-4d5c-82f7-2a7a14796deb
+    uuid: 88c7df31-beba-4447-b193-6cf6cebe28b5
     tls: true
     sni: eh.vk.com
     flow: xtls-rprx-vision
-  - name: "32 XX 101ms NA"
+  - name: "11 NL 39ms NA"
     type: vless
-    server: 158.160.50.102
-    port: 443
-    uuid: ae9d4b8b-e042-487f-8dce-25194d813c26
-    tls: true
-    sni: web.max.ru
-    flow: xtls-rprx-vision
-  - name: "33 XX 101ms NA"
-    type: vless
-    server: 79.174.91.100
-    port: 2447
-    uuid: 3b084500-9025-414a-8ebe-8389d8585fcc
-    tls: true
-    sni: dnd.wb.ru
-    flow: xtls-rprx-vision
-  - name: "34 XX 101ms NA"
-    type: vless
-    server: 79.174.92.31
-    port: 3449
-    uuid: 3b084500-9025-414a-8ebe-8389d8585fcc
-    tls: true
-    sni: dev.tau.vk.ru
-    flow: xtls-rprx-vision
-  - name: "35 XX 101ms NA"
-    type: vless
-    server: 176.120.67.113
+    server: 185.21.15.153
     port: 8443
-    uuid: d0dea598-9047-4567-a934-84c2797c0978
+    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
     tls: true
-    sni: ozon.ru
+    sni: sun6-22.userapi.com
     flow: xtls-rprx-vision
-  - name: "36 XX 101ms NA"
+  - name: "12 RU 40ms NA"
     type: vless
-    server: 158.160.53.108
+    server: 158.160.208.250
     port: 443
-    uuid: f34c6ab1-d8cf-41f2-b9df-872e7167db08
+    uuid: 7509b6b9-627f-4e3d-8e55-7f8cb11a95f8
     tls: true
-    sni: yandex.ru
+    sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
-  - name: "37 XX 102ms NA"
+  - name: "13 RU 42ms NA"
     type: vless
-    server: 158.160.121.181
-    port: 40001
-    uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
-    tls: true
-    sni: ya.ru
-    flow: xtls-rprx-vision
-  - name: "38 XX 102ms NA"
-    type: vless
-    server: 79.174.91.100
-    port: 2450
-    uuid: b27cc93f-0b7c-4f32-8aad-9f2206f83c49
-    tls: true
-    sni: payment-widget.plus.kinopoisk.ru
-    flow: xtls-rprx-vision
-  - name: "39 XX 102ms NA"
-    type: vless
-    server: 72.56.8.229
-    port: 2087
-    uuid: 4b056394-2f40-11f1-bffe-46c4782ac1a7
-    tls: true
-    sni: avito.ru
-    flow: xtls-rprx-vision
-  - name: "40 XX 102ms NA"
-    type: vless
-    server: 109.120.191.233
-    port: 8083
-    uuid: 555e7de5-5594-4322-ab4e-04fbc3b79de5
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "41 XX 102ms NA"
-    type: vless
-    server: 95.182.110.115
-    port: 7443
-    uuid: 18f94e11-bcf6-437a-bb42-e818942064a2
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "42 XX 102ms NA"
-    type: vless
-    server: 95.163.209.142
+    server: 178.72.162.198
     port: 443
-    uuid: 54f66df9-4b66-4527-976f-0b05a2cf4447
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "43 XX 103ms NA"
-    type: vless
-    server: 193.43.146.10
-    port: 8443
-    uuid: d0dea598-9047-4567-a934-84c2797c0978
-    tls: true
-    sni: ozon.ru
-    flow: xtls-rprx-vision
-  - name: "44 XX 103ms NA"
-    type: vless
-    server: 95.163.210.110
-    port: 80
-    uuid: 04d62611-aec9-45f6-8d31-f3994a065b4c
+    uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
     tls: true
     sni: eh.vk.com
     flow: xtls-rprx-vision
-  - name: "45 XX 103ms NA"
-    type: vless
-    server: 176.120.67.142
-    port: 8443
-    uuid: d0dea598-9047-4567-a934-84c2797c0978
-    tls: true
-    sni: ozon.ru
-    flow: xtls-rprx-vision
-  - name: "46 XX 103ms NA"
-    type: vless
-    server: 91.219.227.203
-    port: 8181
-    uuid: 2852dd61-4ff4-4073-8b3e-93f1f213229d
-    tls: true
-    sni: eh.vk.com
-    flow: xtls-rprx-vision
-  - name: "47 XX 103ms NA"
+  - name: "14 RU 42ms NA"
     type: vless
     server: 5.188.141.53
     port: 443
@@ -381,159 +117,47 @@ proxies:
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "48 XX 103ms NA"
+  - name: "15 EE 46ms NA"
     type: vless
-    server: 95.182.110.140
-    port: 7443
-    uuid: 18f94e11-bcf6-437a-bb42-e818942064a2
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "49 XX 103ms NA"
-    type: vless
-    server: 84.201.174.10
-    port: 51190
-    uuid: 037e1e3c-5648-4190-b841-000db6d77432
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "50 XX 103ms NA"
-    type: vless
-    server: 79.174.91.100
-    port: 2452
-    uuid: 3b084500-9025-414a-8ebe-8389d8585fcc
-    tls: true
-    sni: queuev4.vk.com
-    flow: xtls-rprx-vision
-  - name: "51 XX 103ms NA"
-    type: vless
-    server: 91.219.227.203
-    port: 8444
-    uuid: ff71062a-0b03-4482-8b09-3891bc324a85
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "52 XX 104ms NA"
-    type: vless
-    server: 89.208.208.58
+    server: 95.85.224.28
     port: 443
-    uuid: 46917323-63d4-4797-9543-21b5d4ff7d7b
+    uuid: 0dacfd19-b268-46fb-a5ad-68c94a69103b
     tls: true
-    sni: max.ru
+    sni: m.vkvideo.cs7777.vk.ru
     flow: xtls-rprx-vision
-  - name: "53 XX 104ms NA"
+  - name: "16 RU 46ms NA"
     type: vless
-    server: 79.174.95.135
-    port: 5447
-    uuid: 6e730edd-be88-4793-be6d-097e5a88283f
-    tls: true
-    sni: st.okcdn.ru
-    flow: xtls-rprx-vision
-  - name: "54 XX 104ms NA"
-    type: vless
-    server: 89.208.197.6
+    server: 84.201.174.157
     port: 443
-    uuid: 5f17c47b-f21d-4748-8b98-71b2b90acfd9
-    tls: true
-    sni: vk.com
-    flow: xtls-rprx-vision
-  - name: "55 XX 105ms NA"
-    type: vless
-    server: 84.201.152.16
-    port: 443
-    uuid: 037e1e3c-5648-4190-b841-000db6d77432
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "56 XX 105ms NA"
-    type: vless
-    server: 51.250.27.233
-    port: 3000
-    uuid: e6971d0b-9dde-4c7c-bf89-1f26dcc1eb30
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "57 XX 105ms NA"
-    type: vless
-    server: 79.174.92.31
-    port: 3450
-    uuid: b27cc93f-0b7c-4f32-8aad-9f2206f83c49
-    tls: true
-    sni: wap.yandex.com
-    flow: xtls-rprx-vision
-  - name: "58 XX 105ms NA"
-    type: vless
-    server: 51.250.27.233
-    port: 3001
-    uuid: 53cbaf89-7baa-4e89-9f2c-5f878f253581
-    tls: true
-    sni: cloud.mail.ru
-    flow: xtls-rprx-vision
-  - name: "59 XX 105ms NA"
-    type: vless
-    server: 79.174.95.135
-    port: 5452
-    uuid: 6e730edd-be88-4793-be6d-097e5a88283f
-    tls: true
-    sni: st.kinopoisk.ru
-    flow: xtls-rprx-vision
-  - name: "60 XX 105ms NA"
-    type: vless
-    server: 5.188.143.75
-    port: 443
-    uuid: 54f66df9-4b66-4527-976f-0b05a2cf4447
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "61 XX 105ms NA"
-    type: vless
-    server: 84.252.137.241
-    port: 443
-    uuid: b95a44a7-c684-407b-b57e-e1681d69de90
+    uuid: 9885afc6-4f5d-4a17-a55b-d5f74199939b
     tls: true
     sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
-  - name: "62 XX 105ms NA"
+  - name: "17 RU 47ms NA"
     type: vless
-    server: 109.120.191.233
-    port: 8181
-    uuid: 555e7de5-5594-4322-ab4e-04fbc3b79de5
+    server: 158.160.50.212
+    port: 443
+    uuid: 2538619a-06b0-41ad-ae60-09f0bc55c279
     tls: true
-    sni: eh.vk.com
+    sni: rbc.ru
     flow: xtls-rprx-vision
-  - name: "63 XX 105ms NA"
+  - name: "18 NL 48ms NA"
     type: vless
-    server: 188.225.75.128
-    port: 9880
-    uuid: 2de349e0-19bb-4341-96e3-83c274b22025
+    server: 212.34.145.199
+    port: 443
+    uuid: 968e508c-d52b-43a9-8890-7133cb4f72da
     tls: true
-    sni: id.vk.ru
+    sni: www.wildberries.ru
     flow: xtls-rprx-vision
-  - name: "64 XX 105ms NA"
+  - name: "19 NL 50ms NA"
     type: vless
-    server: 45.12.75.242
-    port: 26424
-    uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+    server: 185.121.233.205
+    port: 8443
+    uuid: a307515b-bfac-4dfb-a5ac-0dd5596e76f2
     tls: true
-    sni: ya.ru
+    sni: sun6-22.userapi.com
     flow: xtls-rprx-vision
-  - name: "65 XX 106ms NA"
-    type: vless
-    server: 84.201.167.122
-    port: 3000
-    uuid: 53cbaf89-7baa-4e89-9f2c-5f878f253581
-    tls: true
-    sni: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-  - name: "66 XX 106ms NA"
-    type: vless
-    server: 109.248.33.239
-    port: 7443
-    uuid: 18f94e11-bcf6-437a-bb42-e818942064a2
-    tls: true
-    sni: yandex.ru
-    flow: xtls-rprx-vision
-  - name: "67 XX 106ms NA"
+  - name: "20 RU 51ms NA"
     type: vless
     server: 158.160.156.30
     port: 9543
@@ -541,139 +165,507 @@ proxies:
     tls: true
     sni: yastatic.net
     flow: xtls-rprx-vision
-  - name: "68 XX 106ms NA"
+  - name: "21 PL 52ms NA"
     type: vless
-    server: 46.149.68.236
+    server: 45.141.215.51
+    port: 8443
+    uuid: 8f59feef-aab9-4e0b-924c-2a31bb8f446f
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "22 RU 53ms NA"
+    type: vless
+    server: 37.9.4.147
     port: 443
-    uuid: 42d7048f-a7ef-408f-a3ef-00590cc06f38
-    tls: true
-    sni: ir.ozone.ru
-    flow: xtls-rprx-vision
-  - name: "69 XX 106ms NA"
-    type: vless
-    server: 84.201.167.122
-    port: 3002
-    uuid: 53cbaf89-7baa-4e89-9f2c-5f878f253581
-    tls: true
-    sni: cloud.mail.ru
-    flow: xtls-rprx-vision
-  - name: "70 XX 107ms NA"
-    type: vless
-    server: 84.201.152.16
-    port: 51190
-    uuid: 037e1e3c-5648-4190-b841-000db6d77432
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "71 XX 107ms NA"
-    type: vless
-    server: 217.16.31.162
-    port: 443
-    uuid: 4d36027b-cd4f-4eaf-8574-10d546789f65
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "72 XX 107ms NA"
-    type: vless
-    server: 84.201.140.166
-    port: 443
-    uuid: 666e4806-b517-464a-aab9-517194b626eb
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "73 XX 108ms NA"
-    type: vless
-    server: 217.168.240.172
-    port: 2443
-    uuid: 2597e701-7afa-4f6c-9f4f-9ce4ab2e91bc
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "74 XX 108ms NA"
-    type: vless
-    server: 2.56.178.83
-    port: 443
-    uuid: c80bbc09-837d-495f-bebc-3e8ac5dede41
-    tls: true
-    sni: stats.vk-portal.net
-    flow: xtls-rprx-vision
-  - name: "75 XX 109ms NA"
-    type: vless
-    server: 46.8.18.142
-    port: 443
-    uuid: 0c61afc4-cdf5-4b04-ab1d-7c430a44835a
+    uuid: 6029ccd7-670c-4a9b-a313-12acb588e71c
     tls: true
     sni: yandex.ru
     flow: xtls-rprx-vision
-  - name: "76 XX 110ms NA"
+  - name: "23 ES 54ms NA"
     type: vless
-    server: 46.254.18.60
+    server: 176.120.74.41
     port: 443
-    uuid: fbea0e9f-cb21-484e-9145-e6d84ac47a38
+    uuid: 7f760f5f-a79c-4f0c-aac1-6c647a81925a
     tls: true
-    sni: yandex.ru
+    sni: st.ozone.ru
     flow: xtls-rprx-vision
-  - name: "77 XX 111ms NA"
+  - name: "24 RU 56ms NA"
     type: vless
-    server: 147.45.109.112
+    server: 51.250.7.125
+    port: 5443
+    uuid: edc9130b-19e8-42a8-b942-7ca08d3333e2
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "25 PL 57ms NA"
+    type: vless
+    server: 45.138.16.62
+    port: 8443
+    uuid: 8f59feef-aab9-4e0b-924c-2a31bb8f446f
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "26 RU 60ms NA"
+    type: vless
+    server: 2.59.43.64
     port: 8443
     uuid: 4e8d48bb-3c03-4e02-b15f-a76737cca9e7
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "78 XX 112ms NA"
+  - name: "27 RU 60ms NA"
     type: vless
-    server: 46.254.16.2
-    port: 7783
-    uuid: 3b084500-9025-414a-8ebe-8389d8585fcc
+    server: 5.183.253.171
+    port: 443
+    uuid: 31fb98b7-e7a1-4b56-8c6a-3f060f06393c
     tls: true
-    sni: a.wb.ru
+    sni: eh.vk.com
     flow: xtls-rprx-vision
-  - name: "79 XX 112ms NA"
+  - name: "28 NL 69ms NA"
+    type: vless
+    server: 195.200.16.21
+    port: 8443
+    uuid: 1ef15939-7ec4-427f-9d47-eed9ced4c96f
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "29 RU 71ms NA"
+    type: vless
+    server: 84.201.156.242
+    port: 443
+    uuid: dddfdbb3-91d6-47a9-94d7-24d0c6ebdb06
+    tls: true
+    sni: web.max.ru
+    flow: xtls-rprx-vision
+  - name: "30 FI 72ms NA"
+    type: vless
+    server: 138.124.99.126
+    port: 443
+    uuid: 0eab3e6d-7202-40b4-9577-a01ef670a368
+    tls: true
+    sni: ozon.ru
+    flow: xtls-rprx-vision
+  - name: "31 RU 73ms NA"
     type: vless
     server: 46.254.16.2
-    port: 7786
+    port: 7779
     uuid: 6e730edd-be88-4793-be6d-097e5a88283f
     tls: true
-    sni: st.ozone.ru
+    sni: bro-bg-store.s3.yandex.com
     flow: xtls-rprx-vision
-  - name: "80 XX 116ms NA"
+  - name: "32 NL 74ms NA"
     type: vless
-    server: 46.254.16.2
-    port: 7780
-    uuid: 42d1ca10-4fc6-4333-ba80-5b6cc3edc332
+    server: 45.151.106.5
+    port: 8443
+    uuid: bf026898-1c13-465e-ae62-2128f6f5126e
     tls: true
-    sni: yabro-wbplugin.edadeal.yandex.ru
+    sni: sun6-22.userapi.com
     flow: xtls-rprx-vision
-  - name: "81 XX 117ms NA"
+  - name: "33 RU 77ms NA"
     type: vless
-    server: 92.53.107.207
+    server: 72.56.8.229
+    port: 2087
+    uuid: 4b056394-2f40-11f1-bffe-46c4782ac1a7
+    tls: true
+    sni: avito.ru
+    flow: xtls-rprx-vision
+  - name: "34 NL 77ms NA"
+    type: vless
+    server: 77.246.100.18
+    port: 8443
+    uuid: 1ef15939-7ec4-427f-9d47-eed9ced4c96f
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "35 NL 77ms NA"
+    type: vless
+    server: 77.246.97.229
+    port: 8443
+    uuid: 1ef15939-7ec4-427f-9d47-eed9ced4c96f
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "36 FR 78ms NA"
+    type: vless
+    server: 81.19.137.83
+    port: 8080
+    uuid: a001c9c4-ece2-4dc1-9658-cbad90fcd2e0
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "37 DE 79ms NA"
+    type: vless
+    server: 89.144.53.99
+    port: 2040
+    uuid: 59b8c4a7-0c14-4d7f-8314-7dab904b83f9
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "38 RU 80ms NA"
+    type: vless
+    server: 51.250.27.233
+    port: 3001
+    uuid: 4b07f32f-b91c-4659-b25a-f0ab95320d5e
+    tls: true
+    sni: cloud.mail.ru
+    flow: xtls-rprx-vision
+  - name: "39 LT 81ms NA"
+    type: vless
+    server: 195.238.126.231
+    port: 2083
+    uuid: a0e4e8b6-0518-4f19-803e-eece71583392
+    tls: true
+    sni: goya.rutube.ru
+    flow: xtls-rprx-vision
+  - name: "40 RU 82ms NA"
+    type: vless
+    server: 171.22.133.58
     port: 443
-    uuid: 06e8ad5f-df74-11f0-b453-0242ac100005
+    uuid: 62b73b7b-579b-42b9-82fa-78851b79a56e
     tls: true
-    sni: rutube.ru
+    sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
-  - name: "82 XX 125ms NA"
+  - name: "41 RU 82ms NA"
     type: vless
-    server: 217.16.27.155
-    port: 6443
-    uuid: ed3135ac-e031-42bf-a77a-c0fa909f72ac
+    server: 89.110.91.67
+    port: 8443
+    uuid: b4855129-f939-535d-9670-80aff908b5a1
+    tls: true
+    sni: ya.ru
+    flow: xtls-rprx-vision
+  - name: "42 RU 85ms NA"
+    type: vless
+    server: 95.163.210.110
+    port: 8081
+    uuid: 355ae38b-84a4-4068-be97-92ba79b1e6ca
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "43 FI 87ms NA"
+    type: vless
+    server: 37.27.21.167
+    port: 58888
+    uuid: 4fb684c9-977f-4a7c-82a5-1f70fc141510
+    tls: true
+    sni: yastatic.net
+    flow: xtls-rprx-vision
+  - name: "44 RU 88ms NA"
+    type: vless
+    server: 84.201.152.16
+    port: 8443
+    uuid: 037e1e3c-5648-4190-b841-000db6d77432
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "45 NL 88ms NA"
+    type: vless
+    server: 195.2.92.183
+    port: 443
+    uuid: 7c6c3d89-e709-551d-89a2-5889f374e2b1
+    tls: true
+    sni: vk.com
+    flow: xtls-rprx-vision
+  - name: "46 RU 90ms NA"
+    type: vless
+    server: 95.182.110.115
+    port: 7443
+    uuid: 18f94e11-bcf6-437a-bb42-e818942064a2
     tls: true
     sni: yandex.ru
     flow: xtls-rprx-vision
-  - name: "83 XX 129ms NA"
+  - name: "47 LT 90ms NA"
     type: vless
-    server: 87.239.107.214
-    port: 8443
-    uuid: e8accc46-c511-42fb-919b-9283799a88a1
+    server: 195.238.126.193
+    port: 2083
+    uuid: a0e4e8b6-0518-4f19-803e-eece71583392
     tls: true
-    sni: m.vk.ru
+    sni: goya.rutube.ru
     flow: xtls-rprx-vision
-  - name: "84 XX 219ms NA"
+  - name: "48 LT 92ms NA"
     type: vless
-    server: 84.201.141.152
+    server: 195.238.126.224
+    port: 2083
+    uuid: a0e4e8b6-0518-4f19-803e-eece71583392
+    tls: true
+    sni: goya.rutube.ru
+    flow: xtls-rprx-vision
+  - name: "49 LT 95ms NA"
+    type: vless
+    server: 195.238.126.155
+    port: 2083
+    uuid: a0e4e8b6-0518-4f19-803e-eece71583392
+    tls: true
+    sni: goya.rutube.ru
+    flow: xtls-rprx-vision
+  - name: "50 RU 95ms NA"
+    type: vless
+    server: 176.124.214.235
     port: 443
-    uuid: 5b2b90ab-c5c2-479a-be05-c1d643106ea6
+    uuid: c4d69096-4026-4da5-9485-20a3da91cb14
+    tls: true
+    sni: login.vk.com
+    flow: xtls-rprx-vision
+  - name: "51 EE 99ms NA"
+    type: vless
+    server: 95.85.224.240
+    port: 443
+    uuid: 0dacfd19-b268-46fb-a5ad-68c94a69103b
+    tls: true
+    sni: m.vkvideo.cs7777.vk.ru
+    flow: xtls-rprx-vision
+  - name: "52 LV 101ms NA"
+    type: vless
+    server: 62.192.174.198
+    port: 443
+    uuid: 18664eed-9d0f-475b-a5d6-0842239a6b1d
+    tls: true
+    sni: gosuslugi.ru
+    flow: xtls-rprx-vision
+  - name: "53 FR 101ms NA"
+    type: vless
+    server: 45.152.162.15
+    port: 443
+    uuid: 9032f390-3f3a-4684-8c08-eb43a8221840
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "54 NL 101ms NA"
+    type: vless
+    server: 93.183.89.226
+    port: 443
+    uuid: 328c690b-6e08-5b45-b82d-ba4010192194
+    tls: true
+    sni: vk.com
+    flow: xtls-rprx-vision
+  - name: "55 NL 101ms NA"
+    type: vless
+    server: 5.35.34.181
+    port: 443
+    uuid: 1f8494d3-51a3-420e-8b51-494851573741
+    tls: true
+    sni: web.max.ru
+    flow: xtls-rprx-vision
+  - name: "56 RU 105ms NA"
+    type: vless
+    server: 91.219.227.203
+    port: 8181
+    uuid: 2852dd61-4ff4-4073-8b3e-93f1f213229d
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "57 LV 107ms NA"
+    type: vless
+    server: 193.43.146.28
+    port: 8443
+    uuid: d0dea598-9047-4567-a934-84c2797c0978
+    tls: true
+    sni: ozon.ru
+    flow: xtls-rprx-vision
+  - name: "58 NL 108ms NA"
+    type: vless
+    server: 45.15.129.4
+    port: 443
+    uuid: 70b83ca6-3176-410f-8f82-055592e560af
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "59 RU 108ms NA"
+    type: vless
+    server: 79.174.92.31
+    port: 3448
+    uuid: 617ea4ee-329d-4329-b8ba-18869070a09f
+    tls: true
+    sni: travel.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "60 RU 108ms NA"
+    type: vless
+    server: 5.129.193.147
+    port: 443
+    uuid: 0ce5c16f-ea7c-49fa-896d-2044acf172d2
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "61 RU 109ms NA"
+    type: vless
+    server: 144.31.190.231
+    port: 8443
+    uuid: c476ac5f-07af-4346-8c42-6fd377a345f7
+    tls: true
+    sni: ozon.ru
+    flow: xtls-rprx-vision
+  - name: "62 DE 109ms NA"
+    type: vless
+    server: 95.128.157.251
+    port: 80
+    uuid: ca8f1438-9598-4af0-91e9-ad7b728bed67
+    tls: true
+    sni: m.ok.ru
+    flow: xtls-rprx-vision
+  - name: "63 RU 110ms NA"
+    type: vless
+    server: 95.182.110.140
+    port: 7443
+    uuid: 18f94e11-bcf6-437a-bb42-e818942064a2
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "64 RU 110ms NA"
+    type: vless
+    server: 87.242.118.99
+    port: 443
+    uuid: 327d18e2-1365-491d-93a9-13abf491ba8a
+    tls: true
+    sni: vk.com
+    flow: xtls-rprx-vision
+  - name: "65 RU 111ms NA"
+    type: vless
+    server: 91.219.227.203
+    port: 7443
+    uuid: ff71062a-0b03-4482-8b09-3891bc324a85
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "66 NL 112ms NA"
+    type: vless
+    server: 185.112.59.160
+    port: 443
+    uuid: 8619e4c1-0984-4dce-83e3-419e2d7f5079
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "67 LV 112ms NA"
+    type: vless
+    server: 176.120.67.113
+    port: 8443
+    uuid: d0dea598-9047-4567-a934-84c2797c0978
+    tls: true
+    sni: ozon.ru
+    flow: xtls-rprx-vision
+  - name: "68 RU 114ms NA"
+    type: vless
+    server: 46.254.18.60
+    port: 443
+    uuid: 0dacfd19-b268-46fb-a5ad-68c94a69103b
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "69 RU 119ms NA"
+    type: vless
+    server: 141.98.191.78
+    port: 443
+    uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+    tls: true
+    sni: login.vk.ru
+    flow: xtls-rprx-vision
+  - name: "70 LV 124ms NA"
+    type: vless
+    server: 176.120.67.77
+    port: 8443
+    uuid: d0dea598-9047-4567-a934-84c2797c0978
+    tls: true
+    sni: ozon.ru
+    flow: xtls-rprx-vision
+  - name: "71 RU 126ms NA"
+    type: vless
+    server: 178.250.243.77
+    port: 5444
+    uuid: d6dba391-9247-4a51-9e9b-eae045378b90
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "72 RU 127ms NA"
+    type: vless
+    server: 178.250.243.188
+    port: 443
+    uuid: c3ef0f28-7123-4dd5-aa69-6a99b13fa65f
+    tls: true
+    sni: max.ru
+    flow: xtls-rprx-vision
+  - name: "73 GB 138ms NA"
+    type: vless
+    server: 167.99.91.171
+    port: 443
+    uuid: 921290a9-6e24-4661-82fb-844d88164b74
+    tls: true
+    sni: api.avito.ru
+    flow: xtls-rprx-vision
+  - name: "74 HU 139ms NA"
+    type: vless
+    server: 217.13.104.128
+    port: 443
+    uuid: 9db29659-b68e-466e-988a-6627572c2478
+    tls: true
+    sni: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+  - name: "75 RU 145ms NA"
+    type: vless
+    server: 158.160.152.82
+    port: 8443
+    uuid: af29105c-9ba8-4c15-a871-2738a2be98d5
+    tls: true
+    sni: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+  - name: "76 RU 150ms NA"
+    type: vless
+    server: 79.174.95.135
+    port: 5446
+    uuid: 038fe38f-e7d3-49ab-b960-c5c55c9804de
+    tls: true
+    sni: quiz.kinopoisk.ru
+    flow: xtls-rprx-vision
+  - name: "77 RU 150ms NA"
+    type: vless
+    server: 158.160.235.238
+    port: 52006
+    uuid: 87a60a9f-36b4-4253-9bb2-7f16a4c92318
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "78 RU 154ms NA"
+    type: vless
+    server: 31.130.151.105
+    port: 8443
+    uuid: f29c2f88-e9df-4849-b810-670db4ffa0fc
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "79 NL 168ms NA"
+    type: vless
+    server: 212.34.142.32
+    port: 443
+    uuid: d2ba4d56-a5b5-5541-9b66-8a2ed8004545
+    tls: true
+    sni: eh.vk.com
+    flow: xtls-rprx-vision
+  - name: "80 SE 170ms NA"
+    type: vless
+    server: 109.120.133.147
+    port: 443
+    uuid: aed996ff-eca0-4d4a-b2f3-01362ec4d48d
+    tls: true
+    sni: vk.com
+    flow: xtls-rprx-vision
+  - name: "81 RU 172ms NA"
+    type: vless
+    server: 37.18.14.103
+    port: 443
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
+    tls: true
+    sni: bitva.mail.ru
+    flow: xtls-rprx-vision
+  - name: "82 RU 188ms NA"
+    type: vless
+    server: 89.208.210.216
+    port: 443
+    uuid: abde8acd-e4fa-4d7a-b0d7-07dc5a10a8a4
+    tls: true
+    sni: yandex.ru
+    flow: xtls-rprx-vision
+  - name: "83 RU 204ms NA"
+    type: vless
+    server: 84.201.180.178
+    port: 443
+    uuid: 58098e6a-e9c8-449d-bb83-0bcb8df8b782
     tls: true
     sni: api-maps.yandex.ru
     flow: xtls-rprx-vision
@@ -682,90 +674,89 @@ proxy-groups:
   - name: 🚀 PROXY
     type: select
     proxies:
-      - "1 XX 31ms NA"
-      - "2 XX 73ms NA"
-      - "3 XX 78ms NA"
-      - "4 XX 80ms NA"
-      - "5 XX 81ms NA"
-      - "6 NL 83ms NA"
-      - "7 XX 85ms NA"
-      - "8 XX 85ms NA"
-      - "9 RU 92ms NA"
-      - "10 RU 93ms NA"
-      - "11 RU 96ms NA"
-      - "12 XX 96ms NA"
-      - "13 XX 97ms NA"
-      - "14 XX 98ms NA"
-      - "15 XX 98ms NA"
-      - "16 XX 99ms NA"
-      - "17 XX 100ms NA"
-      - "18 XX 100ms NA"
-      - "19 XX 100ms NA"
-      - "20 XX 100ms NA"
-      - "21 XX 100ms NA"
-      - "22 XX 100ms NA"
-      - "23 XX 101ms NA"
-      - "24 XX 101ms NA"
-      - "25 XX 101ms NA"
-      - "26 XX 101ms NA"
-      - "27 XX 101ms NA"
-      - "28 XX 101ms NA"
-      - "29 XX 101ms NA"
-      - "30 XX 101ms NA"
-      - "31 XX 101ms NA"
-      - "32 XX 101ms NA"
-      - "33 XX 101ms NA"
-      - "34 XX 101ms NA"
-      - "35 XX 101ms NA"
-      - "36 XX 101ms NA"
-      - "37 XX 102ms NA"
-      - "38 XX 102ms NA"
-      - "39 XX 102ms NA"
-      - "40 XX 102ms NA"
-      - "41 XX 102ms NA"
-      - "42 XX 102ms NA"
-      - "43 XX 103ms NA"
-      - "44 XX 103ms NA"
-      - "45 XX 103ms NA"
-      - "46 XX 103ms NA"
-      - "47 XX 103ms NA"
-      - "48 XX 103ms NA"
-      - "49 XX 103ms NA"
-      - "50 XX 103ms NA"
-      - "51 XX 103ms NA"
-      - "52 XX 104ms NA"
-      - "53 XX 104ms NA"
-      - "54 XX 104ms NA"
-      - "55 XX 105ms NA"
-      - "56 XX 105ms NA"
-      - "57 XX 105ms NA"
-      - "58 XX 105ms NA"
-      - "59 XX 105ms NA"
-      - "60 XX 105ms NA"
-      - "61 XX 105ms NA"
-      - "62 XX 105ms NA"
-      - "63 XX 105ms NA"
-      - "64 XX 105ms NA"
-      - "65 XX 106ms NA"
-      - "66 XX 106ms NA"
-      - "67 XX 106ms NA"
-      - "68 XX 106ms NA"
-      - "69 XX 106ms NA"
-      - "70 XX 107ms NA"
-      - "71 XX 107ms NA"
-      - "72 XX 107ms NA"
-      - "73 XX 108ms NA"
-      - "74 XX 108ms NA"
-      - "75 XX 109ms NA"
-      - "76 XX 110ms NA"
-      - "77 XX 111ms NA"
-      - "78 XX 112ms NA"
-      - "79 XX 112ms NA"
-      - "80 XX 116ms NA"
-      - "81 XX 117ms NA"
-      - "82 XX 125ms NA"
-      - "83 XX 129ms NA"
-      - "84 XX 219ms NA"
+      - "1 DE 9ms NA"
+      - "2 NL 16ms NA"
+      - "3 RU 19ms NA"
+      - "4 DE 24ms NA"
+      - "5 NL 30ms NA"
+      - "6 DE 31ms NA"
+      - "7 RU 33ms NA"
+      - "8 NL 35ms NA"
+      - "9 RU 38ms NA"
+      - "10 NL 38ms NA"
+      - "11 NL 39ms NA"
+      - "12 RU 40ms NA"
+      - "13 RU 42ms NA"
+      - "14 RU 42ms NA"
+      - "15 EE 46ms NA"
+      - "16 RU 46ms NA"
+      - "17 RU 47ms NA"
+      - "18 NL 48ms NA"
+      - "19 NL 50ms NA"
+      - "20 RU 51ms NA"
+      - "21 PL 52ms NA"
+      - "22 RU 53ms NA"
+      - "23 ES 54ms NA"
+      - "24 RU 56ms NA"
+      - "25 PL 57ms NA"
+      - "26 RU 60ms NA"
+      - "27 RU 60ms NA"
+      - "28 NL 69ms NA"
+      - "29 RU 71ms NA"
+      - "30 FI 72ms NA"
+      - "31 RU 73ms NA"
+      - "32 NL 74ms NA"
+      - "33 RU 77ms NA"
+      - "34 NL 77ms NA"
+      - "35 NL 77ms NA"
+      - "36 FR 78ms NA"
+      - "37 DE 79ms NA"
+      - "38 RU 80ms NA"
+      - "39 LT 81ms NA"
+      - "40 RU 82ms NA"
+      - "41 RU 82ms NA"
+      - "42 RU 85ms NA"
+      - "43 FI 87ms NA"
+      - "44 RU 88ms NA"
+      - "45 NL 88ms NA"
+      - "46 RU 90ms NA"
+      - "47 LT 90ms NA"
+      - "48 LT 92ms NA"
+      - "49 LT 95ms NA"
+      - "50 RU 95ms NA"
+      - "51 EE 99ms NA"
+      - "52 LV 101ms NA"
+      - "53 FR 101ms NA"
+      - "54 NL 101ms NA"
+      - "55 NL 101ms NA"
+      - "56 RU 105ms NA"
+      - "57 LV 107ms NA"
+      - "58 NL 108ms NA"
+      - "59 RU 108ms NA"
+      - "60 RU 108ms NA"
+      - "61 RU 109ms NA"
+      - "62 DE 109ms NA"
+      - "63 RU 110ms NA"
+      - "64 RU 110ms NA"
+      - "65 RU 111ms NA"
+      - "66 NL 112ms NA"
+      - "67 LV 112ms NA"
+      - "68 RU 114ms NA"
+      - "69 RU 119ms NA"
+      - "70 LV 124ms NA"
+      - "71 RU 126ms NA"
+      - "72 RU 127ms NA"
+      - "73 GB 138ms NA"
+      - "74 HU 139ms NA"
+      - "75 RU 145ms NA"
+      - "76 RU 150ms NA"
+      - "77 RU 150ms NA"
+      - "78 RU 154ms NA"
+      - "79 NL 168ms NA"
+      - "80 SE 170ms NA"
+      - "81 RU 172ms NA"
+      - "82 RU 188ms NA"
+      - "83 RU 204ms NA"
 
 rules:
   - MATCH,🚀 PROXY
