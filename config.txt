@@ -4,6 +4,4 @@
 #support-url: https://t.me/neon_coded
 #profile-web-page-url: https://t.me/neon_coded
 
-vless://3733beda-55e3-4f98-94d4-89210f4f9b67@193.233.88.95:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=vk.com&pbk=a0_XvyL0fCoFyJPbkvYnba5h6ipO0aSQ8SfP0iUpdAg&sid=b52c6281a1##1 🇷🇺 RU | 217ms | 8.5MB/s
-vless://edabe54f-5b45-472b-8de2-a339f12d2a6f@144.31.48.185:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ya.ru&pbk=F1RQOkjsJd0zgk8LfCa-4FOzc84ssQIhFjzMr90juTk&sid=b478456fec48c004##2 🇷🇺 RU | 266ms | 4.9MB/s
-vless://48e2d2c4-4863-4bd2-8ca6-0a3286d31c71@217.168.240.172:2443?encryption=none&type=xhttp&security=reality&extra=null&fp=chrome&sni=travel.yandex.ru&pbk=XqH-gNEL9eJfr1pglaI8WU3OvE654_5duXYBS35UXlM&sid=ab##3 🇷🇺 RU | 281ms | 7.8MB/s
+vless://edabe54f-5b45-472b-8de2-a339f12d2a6f@144.31.48.185:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ya.ru&pbk=F1RQOkjsJd0zgk8LfCa-4FOzc84ssQIhFjzMr90juTk&sid=b478456fec48c004##1 🇷🇺 RU | 454ms | 8.0MB/s
