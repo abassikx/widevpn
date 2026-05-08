@@ -5,39 +5,15 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - name: "1 XX 483ms 24MBs"
-    type: vless
-    server: 91.84.117.29
-    port: 443
-    uuid: a4037b4c-6a9d-528c-9efb-7d801cce8adb
-    tls: true
-    sni: vk.com
-    flow: xtls-rprx-vision
-  - name: "2 DE 500ms 22MBs"
-    type: vless
-    server: 148.253.208.98
-    port: 20222
-    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
-    tls: true
-    sni: stats.vk-portal.net
-    flow: xtls-rprx-vision
-  - name: "3 XX 516ms 23MBs"
-    type: vless
-    server: 45.86.70.95
-    port: 8443
-    uuid: 1e45a266-9a04-47af-b703-e53a67373cc9
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "4 XX 532ms 09MBs"
+  - name: "1 XX 547ms NA"
     type: vless
     server: 2.26.96.173
-    port: 6443
+    port: 8443
     uuid: b27ab9aa-a525-4deb-a1fd-6d16c9614612
     tls: true
     sni: yandex.net
     flow: xtls-rprx-vision
-  - name: "5 XX 546ms 32MBs"
+  - name: "2 XX 593ms 26MBs"
     type: vless
     server: 138.124.99.126
     port: 443
@@ -45,23 +21,23 @@ proxies:
     tls: true
     sni: ozon.ru
     flow: xtls-rprx-vision
-  - name: "6 XX 609ms 43MBs"
+  - name: "3 DE 640ms NA"
     type: vless
-    server: 45.133.251.23
-    port: 6443
-    uuid: b27ab9aa-a525-4deb-a1fd-6d16c9614612
+    server: 148.253.208.98
+    port: 20222
+    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
     tls: true
-    sni: yandex.net
+    sni: stats.vk-portal.net
     flow: xtls-rprx-vision
-  - name: "7 RU 640ms 17MBs"
+  - name: "4 XX 906ms 24MBs"
     type: vless
-    server: 141.98.191.78
+    server: 91.84.117.29
     port: 443
-    uuid: a2415a12-3f92-4636-9823-9828d3ceb818
+    uuid: a4037b4c-6a9d-528c-9efb-7d801cce8adb
     tls: true
-    sni: login.vk.ru
+    sni: vk.com
     flow: xtls-rprx-vision
-  - name: "8 XX 875ms 10MBs"
+  - name: "5 XX 1078ms NA"
     type: vless
     server: 45.12.75.242
     port: 26424
@@ -69,7 +45,7 @@ proxies:
     tls: true
     sni: ya.ru
     flow: xtls-rprx-vision
-  - name: "9 RU 1108ms 16MBs"
+  - name: "6 RU 1282ms 16MBs"
     type: vless
     server: 79.174.91.100
     port: 2452
@@ -77,110 +53,53 @@ proxies:
     tls: true
     sni: queuev4.vk.com
     flow: xtls-rprx-vision
-  - name: "10 XX 1139ms 29MBs"
+  - name: "7 RU 1561ms NA"
     type: vless
-    server: 185.236.20.129
+    server: 79.174.91.100
+    port: 2446
+    uuid: 38586368-00cf-4481-9dbb-2d8eff840399
+    tls: true
+    sni: ir.ozone.ru
+    flow: xtls-rprx-vision
+  - name: "8 RU 2765ms NA"
+    type: vless
+    server: 87.242.118.99
     port: 443
-    uuid: aeb9d636-75a2-5742-9778-e999b6290bab
+    uuid: 49331bfd-6405-4416-bb50-485e46e9fb11
     tls: true
-    sni: vk.com
+    sni: travel.yandex.ru
     flow: xtls-rprx-vision
-  - name: "11 RU 2797ms NA"
+  - name: "9 RU 3016ms NA"
     type: vless
-    server: 84.201.128.195
+    server: 51.250.25.81
     port: 5555
     uuid: 946e563b-1ff3-46e3-90ce-718065185eaa
     tls: true
     sni: max.ru
     flow: xtls-rprx-vision
-  - name: "12 TR 3360ms NA"
-    type: vless
-    server: 62.60.233.178
-    port: 52000
-    uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
-    tls: true
-    sni: ozon.ru
-    flow: xtls-rprx-vision
-  - name: "13 RU 4234ms NA"
-    type: vless
-    server: 158.160.117.200
-    port: 5555
-    uuid: 946e563b-1ff3-46e3-90ce-718065185eaa
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "14 XX 4453ms NA"
-    type: vless
-    server: 158.160.50.27
-    port: 5555
-    uuid: 946e563b-1ff3-46e3-90ce-718065185eaa
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "15 RU 5702ms NA"
+  - name: "10 RU 9031ms NA"
     type: vless
     server: 79.174.95.135
     port: 5447
-    uuid: 7937bd2c-b783-45a2-8674-9f825ecb0b7c
+    uuid: 7bbc52f8-e8d3-48cb-8b62-a3bc50c862c1
     tls: true
     sni: st.okcdn.ru
-    flow: xtls-rprx-vision
-  - name: "16 RU 6375ms NA"
-    type: vless
-    server: 51.250.76.147
-    port: 5555
-    uuid: 946e563b-1ff3-46e3-90ce-718065185eaa
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "17 RU 7500ms NA"
-    type: vless
-    server: 158.160.119.237
-    port: 5555
-    uuid: 946e563b-1ff3-46e3-90ce-718065185eaa
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "18 RU 8797ms NA"
-    type: vless
-    server: 89.208.208.58
-    port: 443
-    uuid: 46917323-63d4-4797-9543-21b5d4ff7d7b
-    tls: true
-    sni: max.ru
-    flow: xtls-rprx-vision
-  - name: "19 RU 9577ms NA"
-    type: vless
-    server: 84.201.150.45
-    port: 5555
-    uuid: 946e563b-1ff3-46e3-90ce-718065185eaa
-    tls: true
-    sni: max.ru
     flow: xtls-rprx-vision
 
 proxy-groups:
   - name: 🚀 PROXY
     type: select
     proxies:
-      - "1 XX 483ms 24MBs"
-      - "2 DE 500ms 22MBs"
-      - "3 XX 516ms 23MBs"
-      - "4 XX 532ms 09MBs"
-      - "5 XX 546ms 32MBs"
-      - "6 XX 609ms 43MBs"
-      - "7 RU 640ms 17MBs"
-      - "8 XX 875ms 10MBs"
-      - "9 RU 1108ms 16MBs"
-      - "10 XX 1139ms 29MBs"
-      - "11 RU 2797ms NA"
-      - "12 TR 3360ms NA"
-      - "13 RU 4234ms NA"
-      - "14 XX 4453ms NA"
-      - "15 RU 5702ms NA"
-      - "16 RU 6375ms NA"
-      - "17 RU 7500ms NA"
-      - "18 RU 8797ms NA"
-      - "19 RU 9577ms NA"
+      - "1 XX 547ms NA"
+      - "2 XX 593ms 26MBs"
+      - "3 DE 640ms NA"
+      - "4 XX 906ms 24MBs"
+      - "5 XX 1078ms NA"
+      - "6 RU 1282ms 16MBs"
+      - "7 RU 1561ms NA"
+      - "8 RU 2765ms NA"
+      - "9 RU 3016ms NA"
+      - "10 RU 9031ms NA"
 
 rules:
   - MATCH,🚀 PROXY
